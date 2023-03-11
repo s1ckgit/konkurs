@@ -224,9 +224,23 @@
 
 .projects__portfolio-img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     filter: grayscale(.7);
     transition: all .5s;
+}
+
+.projects__portfolio-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(.7);
+    transition: all .5s;
+}
+
+.projects__portfolio-video:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
 }
 
 .projects__portfolio-img:hover {
