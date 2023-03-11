@@ -1,0 +1,145 @@
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .header__info {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .advantages__table {
+        grid-template-columns: repeat(3, 208px);
+    }
+    .projects__portfolio-wrapper {
+        grid-template-columns: repeat(3, 224px);
+    }
+    .contacts__wrapper {
+        grid-template-columns: 400px 290px;
+        column-gap: 30px;
+    }
+    .contacts__info-wrapper {
+        grid-template-columns: 125px 150px;
+        column-gap: 16px;
+    }
+    .contacts__button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .header__photo {
+        height: 50%;
+    }
+    .title {
+        text-align: center;
+    }
+    .header__title {
+        text-align: left;
+    }
+    .advantages__table {
+        grid-template-columns: repeat(2, 208px);
+        justify-content: space-evenly;
+    }
+    .advantages__element {
+        text-align: center;
+    }
+    .projects__portfolio-wrapper {
+        grid-template-columns: repeat(2, 224px);
+        justify-content: space-evenly;
+    }
+    .projects__card-title {
+        font-size: 12px;
+        line-height: 12px;
+        left: 50%;
+        bottom: 50%;
+        transform: translateX(-50%);
+    }
+    .projects__card-button {
+        padding: 10px 7px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 20%;
+    }
+    .projects__card-button:hover {
+        transform: translateX(-50%) scale(1.05);
+    }
+    .contacts__wrapper {
+        grid-template-columns: 540px;
+        grid-template-rows: 456px 1fr;
+        row-gap: 30px;
+    }
+    .contacts__info-wrapper {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
+        text-align: center;
+    }
+    .contcts__info-title_center {
+        grid-column: 1/3;
+    }
+    .contacts__logo-section {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .button {
+        padding: 20px;
+    }
+    .header__info {
+        padding-top: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px auto;
+
+    }
+    .header__photo {
+        grid-row: 1/2;
+        margin: 0 auto;
+        width:150px;
+        height: 150px;
+        border: 5px solid white;
+    }
+    .header__button {
+        width: 90%;
+    }
+    .header__info-text {
+        text-align: center;
+    }
+    .header__title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .advantages__table {
+        grid-template-columns: 208px;
+    }
+    .projects__portfolio-wrapper {
+        grid-template-columns: 224px
+    }
+    .contacts__wrapper {
+        grid-template-columns: 100%;
+    }
+    .projects__carousel {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .projects__card {
+        width: 50%;
+    }
+    .projects__card-button {
+        bottom: 10%;
+        padding: 10px
+    }
+    .projects__card-title {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .modal {
+        width: 80%;
+    }
+}
